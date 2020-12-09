@@ -100,11 +100,11 @@ jobs:
           # 
 
           # 编译小米mini固件:
-          # cat >> .config <<EOF
-          # CONFIG_TARGET_ramips=y
-          # CONFIG_TARGET_ramips_mt7620=y
-          # CONFIG_TARGET_ramips_mt7620_DEVICE_xiaomi_miwifi-mini=y
-          # EOF
+          cat >> .config <<EOF
+          CONFIG_TARGET_ramips=y
+          CONFIG_TARGET_ramips_mt7620=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_xiaomi_miwifi-mini=y
+          EOF
 
           # 固件压缩:
           cat >> .config <<EOF
