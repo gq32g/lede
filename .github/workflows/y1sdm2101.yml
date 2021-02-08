@@ -103,7 +103,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_ramips_mt7620_DEVICE_ralink_mt7620a-mt7610e-evb=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_Lenovo-y1s=y
           EOF
 
           # 固件压缩:
